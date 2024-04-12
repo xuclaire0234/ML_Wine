@@ -7,7 +7,7 @@ This folder contains the Machine Learning project for classifying Italian wines 
 For mac user run following command:
 1. `python3 -m pip install --user virtualenv`
 2. `virtualenv env`
-3. `source ./env/bin/activate`  
+3. Activate the virtual environment `source ./env/bin/activate`  
 4. Install required dependencies: `pip install -r requirements.txt`.
 5. Run the main script: `python runner.py` or `python3 runner.py`.
 
