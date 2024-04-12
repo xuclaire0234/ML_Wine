@@ -1,7 +1,7 @@
 ### README 
 
 #### Project Overview
-This folder contains the Machine Learning project for classifying Italian wines into their respective cultivars based on chemical profiles. It includes implementations of K-Nearest Neighbors (KNN), Support Vector Machine (SVM), and Softmax classifiers, with a random prediction model serving as the baseline.
+This repository applies and evaluates machine learning classifiers on the Wine Dataset, a collection of chemical analysis results from wines grown in the same region in Italy but derived from three different cultivars.The dataset encompasses 13 distinct chemical attributes, such as Alcohol, Malic Acid, Ash and so on, which serve as input features. The goal is to accurately classify these wines into their respective cultivars, which are represented by three classes (0, 1, and 2), based on their chemical properties. For this purpose, three different approaches are utilized: K-Nearest Neighbors (KNN), Support Vector Machine (SVM), and Softmax, while using a random prediction model as the baseline model.
 
 #### Getting Started
 For mac user run following command:
@@ -11,8 +11,5 @@ For mac user run following command:
 4. Install required dependencies: `pip install -r requirements.txt`.
 5. Run the main script: `python runner.py` or `python3 runner.py`.
 
-#### Replicating Results
+#### Results
 To replicate the results, simply follow the "Getting Started" instructions. The script `runner.py` will call each files, which train the models on the Wine Dataset and output the classification report, including accuracy, precision, recall, and F1-score.
-
-
-This project aims to accurately predict the cultivar of wines based on 13 distinct chemical attributes.
