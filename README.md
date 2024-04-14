@@ -5,7 +5,7 @@ This repository applies machine learning classifiers on the Wine Dataset, a coll
 
 #### Getting Started
 ##### For macOS Users
-1. **Install virtualenv:** `python3 -m pip install --user virtualenv`
+1. **Install virtualenv:** ```python3 -m pip install --user virtualenv```
 2. **Create a virtual environment:** `virtualenv env`
 3. **Activate the virtual environment:** `source ./env/bin/activate`  
 4. **Install required dependencies:**`pip install -r requirements.txt`
