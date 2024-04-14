@@ -24,6 +24,6 @@ To replicate the results, simply follow the "Getting Started" instructions. The 
 
 <img src="baseline.png" alt="Baseline Report" title="Baseline Report" width="600"/>
 <img src="knn.png" alt="KNN Report" title="KNN Report" width="600"/>
-<img src="svm.png" alt="SVM Report" title="SVM Report" width="600"/>
+<img src="SVM.png" alt="SVM Report" title="SVM Report" width="600"/>
 <img src="softmax.png" alt="Softmax Report" title="Softmax Report" width="600"/>
 
